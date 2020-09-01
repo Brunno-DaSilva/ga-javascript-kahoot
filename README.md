@@ -60,14 +60,20 @@ console.log('Results shown');
 
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
-- [ ] ````for (var i=1; i<=4; i++){
-            setTimeout(function(){
-                console.log(i);
-            }, i*10000);
-           }`
+- [ ] ```````for (var i=1; i<=4; i++){
+                        setTimeout(function(){
+                            console.log(i);
+                        }, i*10000);
+                       }`
 
-          ```
-      ````
+                      ```
+                  ````
+
+              `````
+
+          ``````
+
+      ```````
 
 - [ ] `for (var i=1; i<=4; i++){ (function(i){ setTimeout(function(){ console.log(j); }, j*1000); })(j) }`
 - [ ] `while (var i=1; i<=4; i++) { setTimeout(function() { console.log(i); }, i*1000); }`
@@ -401,33 +407,33 @@ f2();
 
 #### Q42. Which statement is true about Functional Programming?
 
-- Every object in the program has to be a function.
-- Code is grouped with the state it modifies.
-- Date fields and methods are kept in units.
-- Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate
+- [ ] Every object in the program has to be a function.
+- [ ] Code is grouped with the state it modifies.
+- [ ] Date fields and methods are kept in units.
+- [x] Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate
 
 #### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
-- You are calling a method named reduce on an object that's declared but has no value.
-- You are calling a method named reduce on an object that does not exist. <<<<----Correct
-- You are calling a method named reduce on an empty array.
-- You are calling a method named reduce on an object that's has a null value.
+- [ ] You are calling a method named reduce on an object that's declared but has no value.
+- [x] You are calling a method named reduce on an object that does not exist. <<<<----Correct
+- [ ] You are calling a method named reduce on an empty array.
+- [ ] You are calling a method named reduce on an object that's has a null value.
 
 #### Q44. How many prototype objects are in the chain for the following array?
 
 `let arr = [];`
 
-- 3
-- 2
-- 0 <<<<----Correct
-- 1
+- [ ] 3
+- [ ] 2
+- [x] 0 <<<<----Correct
+- [ ] 1
 
 #### Q45. Which of the following is not a unary operator?
 
-- typeof
-- delete
-- instanceof <<<<----Correct
-- void
+- [ ] typeof
+- [ ] delete
+- [x] instanceof <<<<----Correct
+- [ ] void
 
 #### Q46. What type of scope does the end variable have in the code shown?
 
@@ -438,10 +444,10 @@ if (start === 1) {
 }
 ```
 
-- conditional
-- block
-- global <<<<----Correct
-- function
+- [ ] conditional
+- [ ] block
+- [x] global <<<<----Correct
+- [ ] function
 
 #### Q47. What will the value of y be in this code:
 
@@ -450,24 +456,24 @@ const x = 6 % 2;
 const y = x ? 'One': 'Two';
 ```
 
-- One
-- undefined
-- TRUE
-- Two <<<<----Correct
+- [ ] One
+- [ ] undefined
+- [ ] TRUE
+- [x] Two <<<<----Correct
 
 ### Q48. Which keyword is used to create an error?
 
-- throw <<<<----Correct
-- exception
-- catch
-- error
+- [x] throw <<<<----Correct
+- [ ] exception
+- [ ] catch
+- [ ] error
 
 ### Q49. What's one difference between the async and defer attributes of the HTML script tag?
 
-- The defer attribute can work synchronously.
-- The defer attribute works only with generators.
-- The defer attribute works only with promises.
-- The defer attribute will asynchronously load the scripts in order. <<<<----Correct
+- [ ] The defer attribute can work synchronously.
+- [ ] The defer attribute works only with generators.
+- [ ] The defer attribute works only with promises.
+- [x] The defer attribute will asynchronously load the scripts in order. <<<<----Correct
 
 ### Q50. The following program has a problem. What is it?
 
@@ -476,10 +482,10 @@ var a;
 var b = (a = 3) ? true : false;
 ```
 
-- The condition in the ternary is using the assignment operator. <<<<----Correct
-- You can't define a variable without initializing it.
-- You can't use a ternary in the right-hand side of an assignment operator.
-- The code is using the deprecated var keyword
+- [x] The condition in the ternary is using the assignment operator. <<<<----Correct
+- [ ] You can't define a variable without initializing it.
+- [ ] You can't use a ternary in the right-hand side of an assignment operator.
+- [ ] The code is using the deprecated var keyword
 
 ### Q51. Which statement references the DOM node created by the code shown?
 
@@ -487,7 +493,7 @@ var b = (a = 3) ? true : false;
 <p class="pull">lorem ipsum</p>
 ```
 
-- `Document.querySelector('class.pull')`
-- `document.querySelector('.pull');` <<<<----Correct
-- `Document.querySelector('pull')`
-- `Document.querySelector('#pull')`
+- [ ] `Document.querySelector('class.pull')`
+- [x] `document.querySelector('.pull');` <<<<----Correct
+- [ ] `Document.querySelector('pull')`
+- [ ] `Document.querySelector('#pull')`
