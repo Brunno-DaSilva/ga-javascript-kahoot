@@ -277,22 +277,22 @@ dessert.type = 'pudding';
 - [ ] Boolean("false") <<<<------Correct 
 
 #### Q31. Which of the following is not a keyword in JavaScript?
-- this
-- catch 
-- function
-- array <<<<------Correct
+- [ ] this
+- [ ] catch 
+- [ ] function
+- [ ] array <<<<------Correct
 
 #### Q32. When would you use conditional statement?
-- When you want to loop through a group of statements.
-- When you want your code to choose between multiple options. <<<<----Correct
-- When you want to reuse a set of statements multiple times.
-- When you want to group data together.
+- [ ] When you want to loop through a group of statements.
+- [ ] When you want your code to choose between multiple options. <<<<----Correct
+- [ ] When you want to reuse a set of statements multiple times.
+- [ ] When you want to group data together.
 
 #### Q33. Which variable is an implicit parameter for every function in JavaScript?
-- Arguments <<<<----Correct
-- args
-- argsArray
-- argumentsList
+- [ ] Arguments <<<<----Correct
+- [ ] args
+- [ ] argsArray
+- [ ] argumentsList
 
 #### Q34. For the following class, how do you get the value of 42 fro ma instance of X?
 ```js
