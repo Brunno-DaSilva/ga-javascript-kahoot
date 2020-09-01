@@ -300,10 +300,10 @@ class X {
     get Y() { return 42; }
 }
 ```
-- x.get('Y')
-- x.Y <<<<-----Correct
-- x.Y()
-- x.get().Y
+- [ ] x.get('Y')
+- [ ] x.Y <<<<-----Correct
+- [ ] x.Y()
+- [ ] x.get().Y
 
 #### Q35. What is the result of running this code?
 ```js
@@ -317,43 +317,43 @@ let diff = function(x,y){
     return x-y
 }
 ```
-- 30, RefferanceError, 30, -10
-- 30, ReferanceError  <<<<----Correct
-- 30, -10
-- ReferanceError, -10
+- [ ] 30, RefferanceError, 30, -10
+- [ ] 30, ReferanceError  <<<<----Correct
+- [ ] 30, -10
+- [ ] ReferanceError, -10
 
 #### Q36. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
-- Objects are more efficent in terms of storeage.
-- Adding a record to an object is significantly faster than pushing a record into an array. <<<<----Correct
-- Most operations involve looking up a record, and objects can do that better than arrays.
-- Working with objects makes the code more readable.
+- [ ] Objects are more efficent in terms of storeage.
+- [ ] Adding a record to an object is significantly faster than pushing a record into an array. <<<<----Correct
+- [ ] Most operations involve looking up a record, and objects can do that better than arrays.
+- [ ] Working with objects makes the code more readable.
 
 #### Q37. Which statement is true about the "async" attribute for the HTML script tag?
-- It can be used for both internal and external JavaScript code.
-- It can be used only for internal JavaScript code. <<<<----Correct
-- It can be used only for internal or external JavaScript code that exports a promise.
-- It can be used only for external JavaScript code.
+- [ ] It can be used for both internal and external JavaScript code.
+- [ ] It can be used only for internal JavaScript code. <<<<----Correct
+- [ ] It can be used only for internal or external JavaScript code that exports a promise.
+- [ ] It can be used only for external JavaScript code.
 
 #### Q38. How do you import the lodash library making it top-level Api available as the "_" variable?
-- import _ from 'lodash'; <<<<----Correct
-- import 'lodash' as _;
-- import '_' from 'lodash;
-- import lodash as _ from 'lodash';
+- [ ] import _ from 'lodash'; <<<<----Correct
+- [ ] import 'lodash' as _;
+- [ ] import '_' from 'lodash;
+- [ ] import lodash as _ from 'lodash';
 
 #### Q39. What does the following expression evaluate to?
 ```js
 [] == []
 ```
-- True
-- undefined
-- []
-- False <<<<----Correct
+- [ ] True
+- [ ] undefined
+- [ ] []
+- [ ] False <<<<----Correct
 
 #### Q40. What is the name of a function whose expecution can be suspended and resumed at a later point? 
-- Generator function
-- Arrow function 
-- Async/ Await function <<<<----Correct
-- Promise function
+- [ ] Generator function
+- [ ] Arrow function 
+- [ ] Async/ Await function <<<<----Correct
+- [ ] Promise function
 
 #### Q41. What will this code print?
 ```js
@@ -369,10 +369,10 @@ var f2 = function(){
 
 f2()
 ```
-- 2
-- 1 <<<<----Correct
-- Nothing--this code will throw an error.
-- undefined 
+- [ ] 2
+- [ ] 1 <<<<----Correct
+- [ ] Nothing--this code will throw an error.
+- [ ] undefined 
 
 #### Q42. Which statement is true about Functional Programming?
 - Every object in the program has to be a function.
