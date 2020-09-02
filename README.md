@@ -60,32 +60,34 @@ console.log('Results shown');
 
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
-- [ ] `````````````for (var i=1; i<=4; i++){
-                                                setTimeout(function(){
-                                                    console.log(i);
-                                                }, i*10000);
-                                               }`
+- [ ] ``````````````for (var i=1; i<=4; i++){
+                                                    setTimeout(function(){
+                                                        console.log(i);
+                                                    }, i*10000);
+                                                   }`
 
-                                              ```
-                                          ````
+                                                  ```
+                                              ````
 
-                                      `````
+                                          `````
 
-                                  ``````
+                                      ``````
 
-                              ```````
+                                  ```````
 
-                          ````````
+                              ````````
 
-                      `````````
+                          `````````
 
-                  ``````````
+                      ``````````
 
-              ```````````
+                  ```````````
 
-          ````````````
+              ````````````
 
-      `````````````
+          `````````````
+
+      ``````````````
 
 - [ ] `for (var i=1; i<=4; i++){ (function(i){ setTimeout(function(){ console.log(j); }, j*1000); })(j) }`
 - [ ] `while (var i=1; i<=4; i++) { setTimeout(function() { console.log(i); }, i*1000); }`
@@ -142,10 +144,10 @@ function logThis() {
 new logThis();
 ```
 
-- [ ]undefined
-- [ ]window
-- [ ]{desc: "logger"} <
-- [ ]function
+- [ ] undefined
+- [ ] window
+- [ ] {desc: "logger"} <
+- [ ] function
 
 #### Q13. How would you reference the text 'avenue' in the code shown?
 
@@ -153,26 +155,26 @@ new logThis();
 let roadTypes = ["street", "road", "avenue", "circle"];
 ```
 
-- [ ]roadTypes.2
-- [ ]roadTypes[3]
-- [ ]roadTypes.3
-- [x]roadTypes[2]
+- [ ] roadTypes.2
+- [ ] roadTypes[3]
+- [ ] roadTypes.3
+- [x] roadTypes[2]
 
 #### Q14. What is the result of running this statement?
 
 `console.log(typeof(42));`
 
-- [ ]'float'
-- [ ]'value'
-- [x]'number'
-- [ ]'integer'
+- [ ] 'float'
+- [ ] 'value'
+- [x] 'number'
+- [ ] 'integer'
 
 #### Q15. Which property references the DOM object that dispatched an event?
 
-- [ ]self
-- [ ]object
-- [x]target
-- [ ]source
+- [ ] self
+- [ ] object
+- [x] target
+- [ ] source
 
 #### Q16. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
 
@@ -183,17 +185,17 @@ function addNumbers(x, y) {
 }
 ```
 
-- [ ]exception('One or both parameters are not numbers')
-- [ ]catch('One or both parameters are not numbers')
-- [ ]error('One or both parameters are not numbers')
-- [x]throw('One or both parameters are not numbers') <
+- [ ] exception('One or both parameters are not numbers')
+- [ ] catch('One or both parameters are not numbers')
+- [ ] error('One or both parameters are not numbers')
+- [x] throw('One or both parameters are not numbers') <
 
 #### Q17. Which method converts JSON data to a JavaScript object?
 
-- [ ]JSON.fromString();
-- [x]JSON.parse() <
-- [ ]JSON.toObject()
-- [ ]JSON.stringify()
+- [ ] JSON.fromString();
+- [x] JSON.parse() <
+- [ ] JSON.toObject()
+- [ ] JSON.stringify()
 
 #### Q18. When would you use a conditional statement?
 
